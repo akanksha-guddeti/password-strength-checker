@@ -52,3 +52,53 @@ password-strength-checker/
 ├── app.py
 ├── requirements.txt
 └── README.md
+⚙️ Installation
+1. Clone the repository
+git clone https://github.com/akanksha-guddeti/password-strength-checker.git
+2. Open the project folder
+cd password-strength-checker
+3. Install the required packages
+pip install -r requirements.txt
+▶️ Run the Application
+
+Run the following command:
+
+streamlit run app.py
+
+If streamlit command does not work, use:
+
+python -m streamlit run app.py
+
+The application will open in your browser.
+
+💡 How It Works
+Enter a password in the password field.
+The application checks the password against five security rules.
+Each requirement is marked as passed or required.
+A security score is calculated.
+The application displays the overall password strength.
+Security tips are provided to help create stronger passwords.
+🔒 Privacy
+
+The Password Strength Checker is designed as a local application.
+
+Passwords are checked within the application and are not intentionally stored by this project.
+
+For real-world security applications, passwords should never be stored as plain text.
+
+🎯 Project Goal
+
+The goal of this project is to demonstrate basic password-security concepts and Python programming using an interactive web interface.
+
+🚀 Future Improvements
+Add password entropy calculation
+Detect common passwords
+Detect repeated characters
+Add password generator
+Add estimated crack-time information
+Improve security analysis
+👩‍💻 Author
+
+Akanksha Guddeti
+
+GitHub: https://github.com/akanksha-guddeti
